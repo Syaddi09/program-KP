@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>Program KP</title>
+
+    <style>
+        .navbar-custom {
+            background-color: #1E90FF;
+        }
+        .navbar-custom .navbar-brand,
+        .navbar-custom .nav-link {
+            color: white;
+        }
+        .navbar-custom .nav-link:hover {
+            color: blue;
+        }
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%2884, 110, 122, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+        }
+    </style>
+</head>
+<body>
+
+     <!--header-->
+
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container-fluid position-relative">
+            <div class="logo">
+                <img src="img/AT-Taqwa .png" alt="Logo">
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav navbar-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pelayanan">Jenis Layanan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kami">Tentang Kami</a>
+                    </li>
+                </ul>
+            </div>
+            <a href="login.php" class="btn btn-primary" style="margin-right: 20px;">Log In</a>
+        </div>
+    </nav>
+
+          <!-- Banner -->
+          <div class="banner">
+            <div class="bannercontent">
+                <h1>SISTEM INFORMASI PELAYANAN JAMAAH</h1>
+                <p>Masjid Raya At-Taqwa kota Cirebon</p>
+                <div class="container mt-5">
+                    <a href="#pelayanan" class="btn btn-primary">Jenis Layanan</a>
+                </div>
+            </div>
+        </div>
+
+         <!--content-->
+        <div class="container" id="pelayanan">
+            <H1>Jenis Layanan</H1>
+            <div class="row">
+                <div class="col h-100">
+                    <div class="card">
+                        <img src="img/Akad nikah.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Akad Di Masjid</h5>
+                            <p class="card-text">Attaqwa Centre memberikan pelayanan Akad Nikah yang murah, hebat dan tak terlupakan.Gak perlu dekorasi, melayani include sound system, khotib, qori, mc, K3 dan lainnya Segala keperluan akad nikah hingga perayaan atau syukuran akad nikah dapat kami sediakan</p>
+                        </div>
+                        <a href="infoakad.php" class="btn btn-primary">Informasi</a>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/privatngaji.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Privat Mengaji</h5>
+                            <p class="card-text">Belajar Mengaji Al-Quran dengan berbagai Metode.Guru Bisa Datang ke Rumah atau Kantor</p>
+                        </div>
+                        <a href="infongaji.php" class="btn btn-primary">Informasi</a>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/konsulsyariah.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Konsultasi Syariah</h5>
+                            <p class="card-text">At-Taqwa Centre Kota Cirebon juga membantu para jamaah yang ingin konsultasi tentang masalah keluarga sakinah, fiqih, hukum, dan lain sebagainya. Insya Allah akan dipandu oleh pakar sesuai bidangnya.</p>
+                        </div>
+                        <a href="infokonsul.php" class="btn btn-primary">Informasi</a>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/ruang rapat.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Sewa Tempat Rapat</h5>
+                            <p class="card-text">.Attaqwa Centre melayani ummat dalam penyediaan Ruang Madya untuk kebutuhan dan keperluan masyarakat
+                            </p>
+                        </div>
+                        <a href="inforapat.php" class="btn btn-primary">Informasi</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         
+
+         <!--about us-->
+        <section class="py-5" id="kami">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <img src="img/AT-Taqwa .png" class="img-fluid" alt="Image 1">
+                    </div>
+
+                    <div class="col-md-6 mt-5">
+                        <h2 class="mb-4">Lembaga At-Taqwa Center</h2>
+                        <p>Lembaga At-Ataqwa Center merupakan lembaga keagamaan islam yang berdomisili di Kota Cirebon. Menjadi pusat dakwah, Sosial dan kegiatan. Dengan fasilitas berupa masjid, tempat serbaguna, pendidikan. Layanan berupa akad di masjid, belajar mengaji, konsultasi syariah, ruang rapat. Saat ini dalam proses pemesanan layanan pada lembaga at-taqwa cirebon jamaah harus langsung datang ke tempat.  Untuk pengolahan data dan transaksi masih di lakukan secara manual yaitu pencatatan ke dalam buku sehingga membutuhkan waktu yang lama untuk mencetak laporan. Berdasarkan permasalahan tersebut maka di ambil judul “Sistem Informasi Pelayanan Jamaah Berbasis Web Pada Lembaga At-Taqwa Center Kota Cirebon” yang di harapkan dapat meningkatkan pelayanan jamaah sehingga mudah dan nyaman.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+
+        <footer class="bg-dark py-3" id="hubungi">
+
+            <div class="container text-light ">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h4>Alamat Kami</h4>
+                    <p>Jl. R.A. Kartini No. 2 Kota Cirebon, Jawa Barat, Indonesia</p>
+                    <p>Kode Pos: 45123</p>
+                  </div>
+                  <div class="col-md-6">
+                    <h4>Kontak Kami</h4>
+                    <p>Telepon: 0231 220244 dan 232755</p>
+                    <p>Call Centre WA / SMS 087728955183</p>
+                    <p>Email: info@attaqwacirebon.com</p>
+                  </div>
+                </div>
+              </div>
+
+            <div class="container">
+                <p class="text-center text-light" style="margin-bottom: 10px;">&copy; 2024 Program KP</p>
+            </div>
+        </footer>
+</body>
+</html>

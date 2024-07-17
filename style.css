@@ -1,0 +1,99 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: green;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 60px;
+    width: 60px;
+    margin-left: 50px; 
+}
+
+.menu {
+    list-style-type: none;
+    margin-right: 50px;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.menu li:first-child {
+    margin-left: 0;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.menu li a:hover {
+    color: #ffcc00;
+}
+
+
+/* Banner Style */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.banner {
+    background-image: url('img/IMG-20240222-WA0012\(1\).jpg');
+    background-size: cover;
+    background-position: center;
+    height: 570px; 
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannercontent {
+    max-width: 800px;
+    padding: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.bannercontent h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.bannercontent p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+.container{
+    margin-top: 30px;
+}
+
+.container h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
